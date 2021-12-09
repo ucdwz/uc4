@@ -1,0 +1,387 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+.download {
+	margin:4vw 0 7vw
+}
+.download-button {
+	height:6vw;
+	width:45vw;
+	line-height:6vw;
+	display:block;
+	border-radius:4vw;
+	background:#e45544;
+	color:#fff;
+	padding:5vw;
+	font-size:5vw;
+	margin:0 auto;
+	text-align:center
+}
+html {
+	font-size:62.5%
+}
+html,body,ul,li,h1,h2 {
+	margin:0;
+	padding:0
+}
+body {
+	font-family:Helvetica,sans-serif
+}
+ul,li {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+html,body {
+	height:100%
+}
+.banner {
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	right:0;
+	padding:0 10px;
+	height:60px;
+	background:#fff;
+	border-bottom:1px solid lightgray;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:16px;
+	bottom:0
+}
+.banner+#wrap {
+	top:61px
+}
+#wrap {
+	height:100%;
+	width:100%
+}
+.app-logo .logo {
+	margin:0 auto;
+	position:relative
+}
+.app-logo .logo img.fg {
+	width:100%;
+	vertical-align:top
+}
+.app-logo .logo img.bg {
+	width:200%;
+	position:absolute;
+	left:-49%;
+	top:-63%;
+	z-index:-1
+}
+.app-intro {
+	text-align:center;
+	margin-top:.06rem
+}
+.app-intro .h1 {
+	color:#494949;
+	font-size:.54rem;
+	font-weight:normal
+}
+.app-intro .h1 span {
+	color:#888;
+	font-family:'Yantramanav',sans-serif !important;
+	padding-left:.5rem;
+	font-weight:300;
+	font-size:.2rem
+}
+.app-intro .h2 {
+	color:#9b9b9b;
+	font-size:.32rem;
+	line-height:1.5;
+	font-weight:400;
+	white-space:pre-line
+}
+.download {
+	margin:0.4rem 0 0.7rem
+}
+.download-button {
+	height:.6rem;
+	width:3rem;
+	line-height:.6rem;
+	display:block;
+	border-radius:.1rem;
+	background:#e45544;
+	color:#fff;
+	padding:.1rem;
+	font-size:.32rem;
+	margin:0 auto;
+	text-align:center
+}
+.download-wrap {
+	height:2.95rem;
+	margin-top:.15rem
+}
+.download-hint {
+	color:gray;
+	font-size:.15rem;
+	text-align:center
+}
+.app-screenshot {
+	margin:0 auto
+}
+.app-screenshot .android img {
+	margin:0.4rem 0 0 0.08rem
+}
+.app-screenshot .iphone img {
+	width:89%;
+	margin:0.42rem 0 0 0.1rem
+}
+
+section .section-content {
+	height:100%;
+	display:-webkit-box;
+	display:-moz-box;
+	display:box;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
+	box-orient:vertical;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+	flex-direction:column;
+	-ms-flex-direction:column;
+	-webkit-box-align:center;
+	-moz-box-align:center;
+	box-align:center;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	-o-align-items:center;
+	align-items:center;
+	-ms-flex-align:center;
+	-webkit-box-pack:center;
+	-moz-box-pack:center;
+	box-pack:center;
+	-webkit-justify-content:center;
+	-moz-justify-content:center;
+	-ms-justify-content:center;
+	-o-justify-content:center;
+	justify-content:center;
+	-ms-flex-pack:center
+}
+section:nth-child(even) {
+	background:#fff
+}
+section img.bg {
+	width:100%
+}
+section .tit {
+	padding:0 0 0.2rem;
+	color:#111;
+	font-size:.45rem;
+	line-height:1.5;
+	font-weight:normal
+}
+section .con {
+	width:80%;
+	margin:0 auto 0.34rem;
+	color:#9b9b9b;
+	font-size:.28rem;
+	line-height:1.5
+}
+section:last-child .tit {
+	padding-top:.6rem
+}
+section:last-child img.bg {
+	vertical-align:top
+}
+.active .tit {
+	-webkit-animation:fadeInDown 1s linear both;
+	-moz-animation:fadeInDown 1s linear both;
+	animation:fadeInDown 1s linear both
+}
+.active .con {
+	-webkit-animation:fadeInDown 1s linear both;
+	-moz-animation:fadeInDown 1s linear both;
+	animation:fadeInDown 1s linear both;
+	-webkit-animation-delay:.8s;
+	-moz-animation-delay:.8s;
+	animation-delay:.8s
+}
+.footer {
+	padding-top:.4rem;
+	position:relative;
+	text-align:center;
+	background:#F1FAF1
+}
+.rights {
+	font-size:.24rem;
+	color:#999;
+	width:100%;
+	text-align:center;
+	margin-top:.4rem
+}
+.next {
+	width:.4rem;
+	position:fixed;
+	line-height:0;
+	bottom:.3rem;
+	left:50%;
+	margin-left:-.3rem;
+	opacity:1;
+	z-index:10;
+	-webkit-animation:arrow 1.5s ease-out infinite;
+	-moz-animation:arrow 1.5s ease-out infinite;
+	-o-animation:arrow 1.5s ease-out infinite;
+	animation:arrow 1.5s ease-out infinite
+}
+.next img {
+	width:100%
+}
+@-webkit-keyframes fadeInDown {
+	0% {
+	opacity:0;
+	-webkit-transform:translate3d(0,-30%,0);
+	transform:translate3d(0,-30%,0)
+}
+100% {
+	opacity:1;
+	-webkit-transform:none;
+	transform:none
+}
+}@-moz-keyframes fadeInDown {
+	0% {
+	opacity:0;
+	-webkit-transform:translate3d(0,-30%,0);
+	transform:translate3d(0,-30%,0)
+}
+100% {
+	opacity:1;
+	-webkit-transform:none;
+	transform:none
+}
+}@keyframes fadeInDown {
+	0% {
+	opacity:0;
+	-webkit-transform:translate3d(0,-30%,0);
+	transform:translate3d(0,-30%,0)
+}
+100% {
+	opacity:1;
+	-webkit-transform:none;
+	transform:none
+}
+}@-webkit-keyframes arrow {
+	0% {
+	-webkit-transform:translate(0,-0.1rem);
+	opacity:0
+}
+20% {
+	-webkit-transform:translate(0,-0.05rem);
+	opacity:1
+}
+100% {
+	-webkit-transform:translate(0,0);
+	opacity:0
+}
+}@-moz-keyframes arrow {
+	0% {
+	-webkit-transform:translate(0,-0.1rem);
+	opacity:0
+}
+20% {
+	-webkit-transform:translate(0,-0.05rem);
+	opacity:1
+}
+100% {
+	-webkit-transform:translate(0,0);
+	opacity:0
+}
+}@keyframes arrow {
+	0% {
+	-webkit-transform:translate(0,-0.1rem);
+	opacity:0
+}
+20% {
+	-webkit-transform:translate(0,-0.05rem);
+	opacity:1
+}
+100% {
+	-webkit-transform:translate(0,0);
+	opacity:0
+}
+}.wechat-overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	background:rgba(0,0,0,0.5)
+}
+.wechat-dialog {
+	font-size:16px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	padding:50px 0;
+	text-align:center;
+	background:#fff
+}
+.wechat-highlight {
+	color:#1da053
+}
+.wechat-arrow {
+	position:absolute;
+	top:30px;
+	right:-10px;
+	width:150px;
+	height:60px;
+	border:2px dashed transparent;
+	border-radius:50%;
+	border-bottom-color:#000;
+	-webkit-transform:rotate(-60deg)
+}
+.wechat-arrow:after {
+	content:"";
+	position:absolute;
+	width:20px;
+	height:20px;
+	border:2px solid;
+	bottom:-2px;
+	right:2px;
+	border-left-color:transparent;
+	border-top-color:transparent;
+	-webkit-transform:rotate(-70deg)
+}
+.wechat-overlay {
+	display:none
+}
+.app-related-info {
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-top:20px;
+	font-size:12px
+}
+.app-related-info li {
+	display:inline-block;
+	color:#999
+}
+.app-related-info li+li:before {
+	content:"/";
+	margin:0 4px 0 2px
+}
+.app-related-info a {
+	text-decoration:none;
+	color:#999
+}
+.app-related-info a:hover {
+	color:#666
+}
+.app-related-info {
+	text-align:center;
+	margin-top:-20px;
+	margin-bottom:30px
+}
